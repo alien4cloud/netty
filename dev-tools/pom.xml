@@ -26,7 +26,7 @@
 
   <groupId>io.netty</groupId>
   <artifactId>netty-dev-tools</artifactId>
-  <version>4.1.10.Final-SNAPSHOT</version>
+  <version>4.1.10.Final-ALIEN1</version>
 
   <name>Netty/Dev-Tools</name>
 
