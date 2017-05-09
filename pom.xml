@@ -26,7 +26,7 @@
   <groupId>io.netty</groupId>
   <artifactId>netty-parent</artifactId>
   <packaging>pom</packaging>
-  <version>4.1.11.Final-SNAPSHOT</version>
+  <version>4.1.11.Final-ALIEN1</version>
 
   <name>Netty</name>
   <url>http://netty.io/</url>
@@ -632,6 +632,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>repo.opensource.fastconnect.org</id>
+      <url>https://fastconnect.org/maven/content/repositories/opensource</url>
+    </repository>
+    <snapshotRepository>
+      <id>repo.opensource.snapshot.fastconnect.org</id>
+      <url>https://fastconnect.org/maven/content/repositories/opensource-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <extensions>

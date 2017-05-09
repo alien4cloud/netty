@@ -25,9 +25,20 @@
 
   <groupId>io.netty</groupId>
   <artifactId>netty-dev-tools</artifactId>
-  <version>4.1.11.Final-SNAPSHOT</version>
+  <version>4.1.11.Final-ALIEN1</version>
 
   <name>Netty/Dev-Tools</name>
+
+  <distributionManagement>
+    <repository>
+      <id>repo.opensource.fastconnect.org</id>
+      <url>https://fastconnect.org/maven/content/repositories/opensource</url>
+    </repository>
+    <snapshotRepository>
+      <id>repo.opensource.snapshot.fastconnect.org</id>
+      <url>https://fastconnect.org/maven/content/repositories/opensource-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <plugins>

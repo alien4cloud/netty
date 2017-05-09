@@ -25,7 +25,7 @@
 
   <groupId>io.netty</groupId>
   <artifactId>netty-bom</artifactId>
-  <version>4.1.11.Final-SNAPSHOT</version>
+  <version>4.1.11.Final-ALIEN1</version>
   <packaging>pom</packaging>
 
   <name>Netty/BOM</name>
@@ -63,128 +63,139 @@
     </developer>
   </developers>
 
+  <distributionManagement>
+    <repository>
+      <id>repo.opensource.fastconnect.org</id>
+      <url>https://fastconnect.org/maven/content/repositories/opensource</url>
+    </repository>
+    <snapshotRepository>
+      <id>repo.opensource.snapshot.fastconnect.org</id>
+      <url>https://fastconnect.org/maven/content/repositories/opensource-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <!-- All release modules -->
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-buffer</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-dns</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-haproxy</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-http</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-http2</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-memcache</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-mqtt</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-redis</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-smtp</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-socks</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-stomp</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-codec-xml</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-common</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-handler</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-handler-proxy</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-resolver-dns</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-rxtx</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-sctp</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-transport-udt</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-example</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
       <dependency>
         <groupId>io.netty</groupId>
         <artifactId>netty-all</artifactId>
-        <version>4.1.11.Final-SNAPSHOT</version>
+        <version>4.1.11.Final-ALIEN1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
